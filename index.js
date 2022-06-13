@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 // const cover = document.getElementById("cover");  
 // Songs Titles  
-const songs = ["Baby", "Stay", "No-lie", "Ghost", "Sorry", "Lonely"];
+const songs = ["Baby", "Stay", "No-Lie", "Ghost", "Sorry", "Lonely"];
 // KeepTrack of song  
 let songIndex = 0;
 // Initially load song details into DOM  
