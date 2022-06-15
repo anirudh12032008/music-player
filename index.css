@@ -12,10 +12,85 @@ body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
     height: 100vh;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainc {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+/* CSS */
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.button-19:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+    user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+    cursor: auto;
 }
 
 .music-container {
@@ -34,7 +109,7 @@ body {
     width: 110px;
 }
 
-.img-container::after {
+/* .img-container::after {
     content: "";
     background-color: #fff;
     border-radius: 50%;
@@ -45,7 +120,7 @@ body {
     height: 20px;
     transform: translate(-50%, 50%);
     box-shadow: 0 0 0px 10px #000;
-}
+} */
 
 .img-container img {
     border-radius: 50%;
@@ -55,7 +130,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    animation: rotate 3s linear infinite;
+    /* animation: rotate 7s linear infinite; */
     animation-play-state: paused;
 }
 
